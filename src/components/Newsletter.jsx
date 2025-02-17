@@ -18,12 +18,12 @@ function Newsletter() {
                     will not spam you, we promise.
                 </p>
                 <div className=" flex items-center justify-center">
-                    <form action="#" className='flex sm:flex-col md:flex-row border-2 '>
+                    <form action="#" className='flex sm:flex-col md:flex-row border-2 border-black '>
                         <div className="flex items-center justify-center">
                              <input
                                 type="email"
                                 placeholder="Enter your e-mail address"
-                                className=' p-2 bg-black text-white font-bold'
+                                className=' p-2 bg-black text-white font-bold border-black'
                             />
                         </div>
                         <button className='flex items-center p-2 justify-center  cursor-pointer'>Subscribe</button>

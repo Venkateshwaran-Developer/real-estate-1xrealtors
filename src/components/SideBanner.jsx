@@ -2,7 +2,7 @@ import React from 'react';
 
 function SideBanner() {
   return (
-    <div className='w-full h-full'>
+    <div className='w-full h-full overflow-hidden'>
         <section className="earlybird w-[100%] bg-white">
             <div className=" grid sm:grid-cols-1 lg:grid-cols-2 md:pb-20 items-center">
                 <div className='flex '>
@@ -21,8 +21,10 @@ function SideBanner() {
                 <div className='p-10'>
                     <h1 className='text-5xl mb-[30px] font-bold'>Modern, Trendy, Affordable</h1>
                     <p className='text-xl mb-[40px] '>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit,
-                        Dolorem quo rem officia nisi exercitationem porro?
+                    Our furniture is designed to be both stylish and affordable. We believe that everyone deserves to have a
+                    beautiful home, regardless of their budget. That's why we offer a wide range of stylish and
+                    affordable furniture options.
+                    
                     </p>
                     <button className='bg-[#6864ec] rounded-xl px-4 py-2 font-bold '>Early Bird Book</button>
                 </div>
@@ -31,8 +33,9 @@ function SideBanner() {
                 <div className='p-10'>
                     <h1 className='text-5xl mb-[30px] font-bold'>Unique House for Long Term!</h1>
                     <p className='text-xl mb-[40px] '>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Dolorem quo rem officia nisi exercitationem porro?
+                    Our house is designed to be both stylish and affordable. We believe that everyone deserves to have a
+                    beautiful home, regardless of their budget. That's why we offer a wide range of stylish and
+                    affordable furniture options.
                     </p>
                     <button className='bg-[#6864ec] rounded-xl px-4 py-2 font-bold '>Early Bird Book</button>
                 </div>
