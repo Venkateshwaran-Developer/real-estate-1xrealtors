@@ -3,7 +3,7 @@ import '../components/Galary.css'
 
 function Galary() {
   return (
-    <div id='gallery' className='overflow-hidden py-28'>
+    <div id='gallery' className='overflow-hidden pt-28'>
        <section className="gallery">
             <figure className="gallery__item gallery__item--1">
                     <img src="/Images/gal-1.jpeg" alt="Gallery Image 1" className="gallery__img"></img>
