@@ -3,7 +3,7 @@ import React from 'react';
 function Features() {
   return (
     <div id='ourservices' className='overflow-hidden pt-28'>
-    <h1 className='sm:text-3xl md:text-6xl px-10 font-bold'>
+    <h1 className='sm:text-3xl flex justify-center md:text-6xl px-10 font-bold'>
        Our Services
     </h1>
       <section className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-10 place-content-center place-items-center">

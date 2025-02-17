@@ -11,10 +11,10 @@ import { FreeMode, Autoplay, Pagination } from "swiper/modules";
 export default function Testimonials() {
   const [setSwiperRef] = useState(null);
   return (
-    <div id="reviews" className=" sm:px-10 sm:pb-10 md:pb-20 md:px-30 lg:px-48 overflow-hidden">
+    <div id="reviews" className=" sm:px-10 sm:pt-28 md:pb-20 md:px-30 lg:px-48 overflow-hidden">
     <div className="flex flex-col items-center justify-center md:pt-28 ">
     <h1 className="text-[20px] text-green">Testimonials</h1>
-    <h1 className="sm:text-[30px] sm:pb-10 md:text-[50px]  ">What Our Client Say&apos;s</h1>
+    <h1 className="sm:text-[30px] sm:pb-10 md:text-[50px] font-bold  ">What Our Client Say&apos;s</h1>
 
     </div>
   

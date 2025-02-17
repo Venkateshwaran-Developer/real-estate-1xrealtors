@@ -30,6 +30,7 @@ export default  withMT({
     },
     extend: {
       fontFamily: {
+        "Josefin":["Josefin Sans","serif"],
         'Joti': ["Joti One", 'serif'],
         'Chau': ["Chau Philomene One", 'serif'],
         'Monoton': ["Monoton", 'serif'],

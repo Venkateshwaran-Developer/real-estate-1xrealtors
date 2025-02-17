@@ -16,7 +16,7 @@ function App() {
   
 
   return (
-   <div className=" overflow-hidden">
+   <div className="font-Josefin overflow-hidden">
    <Header/>
    <main className="mt-[80px]">
 

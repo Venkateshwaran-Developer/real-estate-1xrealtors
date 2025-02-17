@@ -6,9 +6,9 @@ const TextPressure = ()=>{
   
 
   return (
-    <div id='hero' className='grid bg-gray-200 w-full sm:grid-cols-1 md:grid-cols-2 h-auto py-16  overflow-hidden place-content-center place-items-center'>
+    <div id='hero' className='grid  bg-gray-200 w-full sm:grid-cols-1 md:grid-cols-2 h-auto py-16  overflow-hidden place-content-center place-items-center'>
 
-    <div className='md:pl-20 sm:px-20 pb-20' >
+    <div className='md:pl-20 sm:px-10 pb-20' >
     <h1 className='sm:text-[30px] md:text-[40px] lg:text-[70px] leading-tight font-bold '>
     Find <span className='text-[#6864ec] '>Better</span> Places to Live, Work and Wonder
 

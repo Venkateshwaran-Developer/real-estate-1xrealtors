@@ -26,7 +26,7 @@ function SideBanner() {
                     affordable furniture options.
                     
                     </p>
-                    <button className='bg-[#6864ec] rounded-xl px-4 py-2 font-bold '>Early Bird Book</button>
+                    {/* <button className='bg-[#6864ec] rounded-xl px-4 py-2 font-bold '>Early Bird Book</button> */}
                 </div>
             </div>
             <div className=" grid sm:grid-cols-1 lg:grid-cols-2 items-center">
@@ -37,7 +37,7 @@ function SideBanner() {
                     beautiful home, regardless of their budget. That's why we offer a wide range of stylish and
                     affordable furniture options.
                     </p>
-                    <button className='bg-[#6864ec] rounded-xl px-4 py-2 font-bold '>Early Bird Book</button>
+                    {/* <button className='bg-[#6864ec] rounded-xl px-4 py-2 font-bold '>Early Bird Book</button> */}
                 </div>
                 <div className='flex justify-end '>
                     <img

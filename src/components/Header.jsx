@@ -10,6 +10,7 @@ import {
   ListItemPrefix,
 } from "@material-tailwind/react";
 import { motion } from "motion/react";
+import 'boxicons';
 
 
 export default function Header() {
@@ -47,9 +48,9 @@ export default function Header() {
  
 
   return (
-    <div id="header" className="overflow-hidden">
+    <div id="header" className="overflow-hidden text-black">
     <div id="home" className={`navbar w-full   ${open ? "w-full h-full z-50 fixed ":""}   h-full ${scrolled ? "scrolled  " : ""} `}>
-    <div className={`flex h-24 bg-white ${open ? "":"fixed z-10 "} px-20  w-full justify-between items-center ${scrolled ? "shadow-2xl " : ""} `}>
+    <div className={`flex h-24 bg-gray-200 ${open ? "":"fixed z-10 "} sm:px-10 md:px-20  w-full justify-between items-center ${scrolled ? "shadow-2xl " : ""} `}>
     <motion.div
      
      initial={{ opacity: 0 , x:-100}}
@@ -57,7 +58,7 @@ export default function Header() {
       animate={{opacity:1, x:0 }}
 
      >
-    <div className=" flex text-[30px] font-bold text-[#6864ec]  items-center  justify-center">
+    <div className=" flex text-[30px] font-bold text-[#6864ec]   items-center  justify-center">
       <h1 >1xRealty</h1>
     </div>
     </motion.div>
@@ -92,9 +93,9 @@ export default function Header() {
    <React.Fragment  >
       
       
-      <Drawer open={open} className="bg-[#6864ec]" onClose={closeDrawer}>
+      <Drawer open={open} className="bg-[#6864ec] " onClose={closeDrawer}>
         <div className="mb-2 bg-[#6864ec] flex  items-center justify-between p-4">
-          <Typography className=" text-2xl text-white"  color="blue-gray">
+          <Typography className=" text-2xl text-black font-bold"  color="blue-gray">
           1xRealty
           </Typography>
           <IconButton variant="text" color="white" onClick={closeDrawer}>
@@ -114,22 +115,11 @@ export default function Header() {
             </svg>
           </IconButton>
         </div>
-        <List className="bg-[#6864ec]">
+        <List className="bg-[#6864ec] ">
         <a href="#header">
           <ListItem className="text-white">
             <ListItemPrefix>
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="#fff"
-                className="h-5 w-5"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M6.912 3a3 3 0 00-2.868 2.118l-2.411 7.838a3 3 0 00-.133.882V18a3 3 0 003 3h15a3 3 0 003-3v-4.162c0-.299-.045-.596-.133-.882l-2.412-7.838A3 3 0 0017.088 3H6.912zm13.823 9.75l-2.213-7.191A1.5 1.5 0 0017.088 4.5H6.912a1.5 1.5 0 00-1.434 1.059L3.265 12.75H6.11a3 3 0 012.684 1.658l.256.513a1.5 1.5 0 001.342.829h3.218a1.5 1.5 0 001.342-.83l.256-.512a3 3 0 012.684-1.658h2.844z"
-                  clipRule="evenodd"
-                />
-              </svg>
+            <box-icon type='solid' name='home-alt-2'></box-icon>
             </ListItemPrefix>
             Home
           </ListItem></a>
@@ -157,7 +147,7 @@ export default function Header() {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                fill="#fff"
+                fill="#000000"
                 className="h-5 w-5"
               >
                 <path
@@ -172,57 +162,25 @@ export default function Header() {
           <a href="#gallery">
           <ListItem className="text-white">
             <ListItemPrefix>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="#fff"
-                className="h-5 w-5"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M6.912 3a3 3 0 00-2.868 2.118l-2.411 7.838a3 3 0 00-.133.882V18a3 3 0 003 3h15a3 3 0 003-3v-4.162c0-.299-.045-.596-.133-.882l-2.412-7.838A3 3 0 0017.088 3H6.912zm13.823 9.75l-2.213-7.191A1.5 1.5 0 0017.088 4.5H6.912a1.5 1.5 0 00-1.434 1.059L3.265 12.75H6.11a3 3 0 012.684 1.658l.256.513a1.5 1.5 0 001.342.829h3.218a1.5 1.5 0 001.342-.83l.256-.512a3 3 0 012.684-1.658h2.844z"
-                  clipRule="evenodd"
-                />
-              </svg>
+            <box-icon name='photo-album' type='solid' color='#000000' ></box-icon>
             </ListItemPrefix>
             Gallery
-          </ListItem></a>
-          <a href="#reviews">
-          <ListItem className="text-white">
-            <ListItemPrefix>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="#fff"
-                className="h-5 w-5"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M6.912 3a3 3 0 00-2.868 2.118l-2.411 7.838a3 3 0 00-.133.882V18a3 3 0 003 3h15a3 3 0 003-3v-4.162c0-.299-.045-.596-.133-.882l-2.412-7.838A3 3 0 0017.088 3H6.912zm13.823 9.75l-2.213-7.191A1.5 1.5 0 0017.088 4.5H6.912a1.5 1.5 0 00-1.434 1.059L3.265 12.75H6.11a3 3 0 012.684 1.658l.256.513a1.5 1.5 0 001.342.829h3.218a1.5 1.5 0 001.342-.83l.256-.512a3 3 0 012.684-1.658h2.844z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </ListItemPrefix>
-            Testimonials
           </ListItem></a>
           <a href="#faq">
           <ListItem className="text-white">
             <ListItemPrefix>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="#fff"
-                className="h-5 w-5"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M6.912 3a3 3 0 00-2.868 2.118l-2.411 7.838a3 3 0 00-.133.882V18a3 3 0 003 3h15a3 3 0 003-3v-4.162c0-.299-.045-.596-.133-.882l-2.412-7.838A3 3 0 0017.088 3H6.912zm13.823 9.75l-2.213-7.191A1.5 1.5 0 0017.088 4.5H6.912a1.5 1.5 0 00-1.434 1.059L3.265 12.75H6.11a3 3 0 012.684 1.658l.256.513a1.5 1.5 0 001.342.829h3.218a1.5 1.5 0 001.342-.83l.256-.512a3 3 0 012.684-1.658h2.844z"
-                  clipRule="evenodd"
-                />
-              </svg>
+            <box-icon name='question-mark' color='#000000' ></box-icon>
             </ListItemPrefix>
            FAQ
           </ListItem></a>
+          <a href="#reviews">
+          <ListItem className="text-white">
+            <ListItemPrefix>
+            <box-icon name='user-voice' type='solid' color='#000000' ></box-icon>
+            </ListItemPrefix>
+            Testimonials
+          </ListItem></a>
+          
         </List>
         
       </Drawer>
