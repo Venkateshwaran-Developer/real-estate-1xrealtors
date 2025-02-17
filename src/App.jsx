@@ -9,6 +9,7 @@ import HeroSection from "./components/HeroSection"
 import Header from "./components/Header"
 import Testimonials from "./components/Testimonials"
 import Faq from "./components/Faq"
+import BackToTop from "./components/BackToTop"
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
 
     {/* <Newsletter/> */}
     </main>
+    <BackToTop/>
     <Faq/>
     <Testimonials/>
     <Footer/>
