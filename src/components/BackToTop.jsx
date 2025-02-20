@@ -31,7 +31,7 @@ function BackToTop() {
         onClick={scrollToTop}
         src='/Images/scroll-to-top.png'
       ></img>
-     <a href="whatsapp://send?text=&phone=+919988774455"> <img className="w-10  h-10 fixed right-5 bottom-[70px] z-50 cursor-pointer" src='/Images/whatsapp-svg.svg'></img></a>
+     <a href="whatsapp://send?text=&phone=+919029407063"> <img className="w-10  h-10 fixed right-5 bottom-[70px] z-50 cursor-pointer" src='/Images/whatsapp-svg.svg'></img></a>
     
 
     </div>

@@ -71,18 +71,16 @@ export default function Faq() {
       </Accordion>
       <Accordion  open={open === 4} icon={<Icon id={4} open={open} />}>
         <AccordionHeader className="font-Josefin font-medium" onClick={() => handleOpen(4)}>
-        Is The Agency Planning To Open More Offices?
+        What is an affordable residential apartment?
         </AccordionHeader>
         <AccordionBody className="font-Josefin text-lg">
-        There is always a scope for expansion.  </AccordionBody>
+        An affordable residential apartment is one where the gross amount charged by the builder is not more than forty-five lakhs rupees. This includes apartments constructed under specified housing schemes of Central or State Governments. </AccordionBody>
       </Accordion>
       <Accordion open={open === 5} icon={<Icon id={5} open={open} />}>
         <AccordionHeader className="font-Josefin font-medium" onClick={() => handleOpen(5)}>
-        What Modes Of Payments Are Accepted?
-        </AccordionHeader>
+        What are the GST rates applicable on construction of residential apartments?  </AccordionHeader>
         <AccordionBody className="font-Josefin text-lg">
-        Presently we accepts payment in cash and online with Bank Transfer which is accepted in our gateway.
-        </AccordionBody>
+        For projects commencing on or after April 1, 2019, the GST rates are 1% for affordable residential apartments and 5% for other residential apartments, without the benefit of Input Tax Credit (ITC). For ongoing projects, the promoter has the option to pay GST at the old rates of 8% or 12% with ITC </AccordionBody>
       </Accordion>
    
    </div>
