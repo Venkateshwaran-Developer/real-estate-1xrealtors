@@ -45,7 +45,7 @@ export default function Faq() {
         General frequently asked questions
         </h1>
         <p className="text-lg">We&apos;ve compiled a comprehensive list of commonly asked queries to provide you with quick and informative responses. Whether you&apos;re curious about booking check here.</p>
-        <img src="/Images/faq.svg "></img>
+        <img src="/Images/faq2.svg "></img>
     </div>
     <div data-aos="fade-left"
      className="flex flex-col  space-y-10 px-10 ">
